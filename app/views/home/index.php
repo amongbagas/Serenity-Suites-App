@@ -1,26 +1,4 @@
 <section class="container-fluid m-0 p-0">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <img src="./assets/logo/logo-dark.svg">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center flex-xl-grow-1" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active text-primary" aria-current="page" href="<?= BASE_URL; ?>/home">Home</a>
-                    <a class="nav-link" href="<?= BASE_URL; ?>/rooms">Rooms</a>
-                    <a class="nav-link" href="./pages/facilites.html">Facilities</a>
-                    <a class="nav-link" href="./pages/contact.html">Contact</a>
-                </div>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end flex-grow-0" id="navbarNavAltMarkup">
-                <a href="./auth/signin.html" id="btn1" type="button" class="btn btn-outline-primary me-2 rounded-0">Sign In</a>
-                <a href="./auth/signup.html" id="btn2" type="button" class="btn btn-primary rounded-0">Sign Up</a>
-            </div>
-        </div>
-        </div>
-    </nav>
-
     <div class="position-relative mb-5">
         <img src="./assets/img/Hotel-Hero.png" style="width: 100%; height: 100dvh;" class="object-fit-cover ">
         <div class="container">
