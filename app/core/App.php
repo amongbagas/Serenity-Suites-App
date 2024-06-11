@@ -19,7 +19,7 @@ class App
         require 'app/controllers/' . $this->controller . '.php';
         $this->controller = new $this->controller;
 
-        // Setuo Method
+        // Setup Method
         if (isset($url[1])) {
             if (method_exists($this->controller, $url[1])) {
                 $this->method = $url[1];
@@ -32,7 +32,7 @@ class App
             $this->params = array_values($url);
         }
 
-        // Run controller and params with params if not an empty
+        // Run controller and method with params if not an empty
         call_user_func_array([$this->controller, $this->method], $this->params);
     }
 

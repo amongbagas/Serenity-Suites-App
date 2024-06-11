@@ -2,8 +2,17 @@
 
 class Controller
 {
-    public function view($view, $data = [])
+    public function view(string $view, array $data = []): void
     {
+        $data;
+        require 'app/views/layouts/header.php';
         require 'app/views/' . $view . '.php';
+        require 'app/views/layouts/footer.php';
+    }
+
+    public function repository(string | object $repository): object
+    {
+        require 'app/models/repository/' . $repository . '.php';
+        return new $repository;
     }
 }
