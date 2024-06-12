@@ -36,7 +36,7 @@
                                     <div class="user-box">
                                         <div class="avatar-lg"><img src="<?= BASE_URL ?>/assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
                                         <div class="u-text">
-                                            <h4>Gillas</h4>
+                                            <h4>Staff</h4>
                                             <p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
                                         </div>
                                     </div>
@@ -71,7 +71,7 @@
                     <div class="info">
                         <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
                             <span>
-                                Gillas
+                                Staff
                                 <span class="user-level">Staff</span>
                                 <span class="caret"></span>
                             </span>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <ul class="nav nav-primary">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a href="<?= BASE_URL; ?>/staff/index">
                             <i class="fas fa-home"></i>
                             <p>Dashboard</p>
@@ -112,7 +112,7 @@
                             <p>User</p>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a href="<?= BASE_URL; ?>/staff/kamar">
                             <i class="fas fa-door-open"></i>
                             <p>Kamar</p>
@@ -133,7 +133,6 @@
     <div class="main-panel">
         <div class="content">
             <div class="page-inner">
-
                 <div class="page-header">
                     <h4 class="page-title">Staff</h4>
                     <ul class="breadcrumbs">
@@ -150,56 +149,9 @@
                             <i class="flaticon-right-arrow"></i>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Dashboard</a>
+                            <a href="#">Kamar</a>
                         </li>
                     </ul>
-                </div>
-
-                <div class="mt-2 mb-4">
-                    <h2 class="text-white pb-2">Welcome back, Gillas!</h2>
-                    <h5 class="text-white op-7 mb-4">Yesterday I was clever, so I wanted to change the world. Today
-                        I am wise, so I am changing myself.</h5>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-dark bg-primary-gradient">
-                            <div class="card-body pb-0">
-                                <div class="h1 fw-bold float-right">+5%</div>
-                                <h2 class="mb-2">17</h2>
-                                <p>Users online</p>
-                                <div class="pull-in sparkline-fix chart-as-background">
-                                    <div id="lineChart"><canvas width="327" height="70" style="display: inline-block; width: 327px; height: 70px; vertical-align: top;"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-dark bg-secondary-gradient">
-                            <div class="card-body pb-0">
-                                <div class="h1 fw-bold float-right">-3%</div>
-                                <h2 class="mb-2">27</h2>
-                                <p>New Users</p>
-                                <div class="pull-in sparkline-fix chart-as-background">
-                                    <div id="lineChart2"><canvas width="327" height="70" style="display: inline-block; width: 327px; height: 70px; vertical-align: top;"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-dark bg-success2">
-                            <div class="card-body pb-0">
-                                <div class="h1 fw-bold float-right">+7%</div>
-                                <h2 class="mb-2">213</h2>
-                                <p>Transactions</p>
-                                <div class="pull-in sparkline-fix chart-as-background">
-                                    <div id="lineChart3"><canvas width="327" height="70" style="display: inline-block; width: 327px; height: 70px; vertical-align: top;"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="row">

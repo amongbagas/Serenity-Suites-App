@@ -8,7 +8,7 @@ class Home extends Controller
     {
         $data = array(
             'title' => 'Homepage',
-            'roles' => $this->repository($this->roles_repo)->getAllRoles(),
+            // 'roles' => $this->repository($this->roles_repo)->getAllRoles(),
         );
 
         $this->view('home/index', $data);
