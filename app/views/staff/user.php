@@ -36,7 +36,7 @@
                                     <div class="user-box">
                                         <div class="avatar-lg"><img src="<?= BASE_URL ?>/assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
                                         <div class="u-text">
-                                            <h4>staff</h4>
+                                            <h4>Staff</h4>
                                             <p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
                                         </div>
                                     </div>
@@ -71,8 +71,8 @@
                     <div class="info">
                         <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
                             <span>
-                                staff
-                                <span class="user-level">staff</span>
+                                Gillas
+                                <span class="user-level">Staff</span>
                                 <span class="caret"></span>
                             </span>
                         </a>
@@ -134,7 +134,7 @@
         <div class="content">
             <div class="page-inner">
                 <div class="page-header">
-                    <h4 class="page-title">staff</h4>
+                    <h4 class="page-title">Staff</h4>
                     <ul class="breadcrumbs">
                         <li class="nav-item">
                             <a href="#">Pages</a>
@@ -143,7 +143,7 @@
                             <i class="flaticon-right-arrow"></i>
                         </li>
                         <li class="nav-item">
-                            <a href="#">staff</a>
+                            <a href="#">Staff</a>
                         </li>
                         <li class="separator">
                             <i class="flaticon-right-arrow"></i>
@@ -157,9 +157,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="card-header d-flex justify-content-between">
+                            <div class="card-header">
                                 <h4 class="card-title">Table User</h4>
-                                <button type="button" class="btn btn-sm btn-primary">Add User</button>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -172,7 +171,6 @@
                                                 <th>Age</th>
                                                 <th>Start date</th>
                                                 <th>Salary</th>
-                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tfoot>
@@ -183,7 +181,6 @@
                                                 <th>Age</th>
                                                 <th>Start date</th>
                                                 <th>Salary</th>
-                                                <th>Action</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
@@ -194,10 +191,6 @@
                                                 <td>51</td>
                                                 <td>2008/11/13</td>
                                                 <td>$183,000</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
-                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
-                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Michael Bruce</td>
@@ -206,10 +199,6 @@
                                                 <td>29</td>
                                                 <td>2011/06/27</td>
                                                 <td>$183,000</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
-                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
-                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Donna Snider</td>
@@ -218,10 +207,6 @@
                                                 <td>27</td>
                                                 <td>2011/01/25</td>
                                                 <td>$112,000</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
-                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
-                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>

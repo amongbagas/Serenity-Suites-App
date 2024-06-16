@@ -34,7 +34,7 @@
                                     <div class="user-box">
                                         <div class="avatar-lg"><img src="<?= BASE_URL ?>/assets/img/profile.jpg" alt="image profile" class="avatar-img rounded"></div>
                                         <div class="u-text">
-                                            <h4>staff</h4>
+                                            <h4>Staff</h4>
                                             <p class="text-muted">hello@example.com</p><a href="profile.html" class="btn btn-xs btn-secondary btn-sm">View Profile</a>
                                         </div>
                                     </div>
@@ -67,8 +67,8 @@
                     <div class="info">
                         <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
                             <span>
-                                staff
-                                <span class="user-level">staff</span>
+                                Gillas
+                                <span class="user-level">Staff</span>
                                 <span class="caret"></span>
                             </span>
                         </a>
@@ -129,7 +129,7 @@
         <div class="content">
             <div class="page-inner">
                 <div class="page-header">
-                    <h4 class="page-title">staff</h4>
+                    <h4 class="page-title">Staff</h4>
                     <ul class="breadcrumbs">
                         <li class="nav-item">
                             <a href="#">Pages</a>
@@ -138,7 +138,7 @@
                             <i class="flaticon-right-arrow"></i>
                         </li>
                         <li class="nav-item">
-                            <a href="#">staff</a>
+                            <a href="#">Staff</a>
                         </li>
                         <li class="separator">
                             <i class="flaticon-right-arrow"></i>

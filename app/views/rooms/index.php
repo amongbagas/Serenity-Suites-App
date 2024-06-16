@@ -10,6 +10,19 @@
 </div>
 
 <div id="rooms" class="container">
+    <div class="mb-3">
+        <div>
+            <label for="">Search By Date</label>
+            <input class="rounded px-3 py-1 border-1" type="date">
+        </div>
+
+        <div>
+            <label for="">Search</label>
+            <input class="rounded px-3 py-1 border-1" type="text">
+            <button class="btn btn-sm btn-outline-primary">Search</button>
+        </div>
+
+    </div>
 
     <div class="card w-100 h-100 position-relative mb-5 shadow-lg rounded-5">
         <div class="card-body m-0 p-0">
