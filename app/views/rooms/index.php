@@ -3,8 +3,30 @@
         <div class="container h-100 align-content-center">
             <div class="text-center text-white">
 
-                <div class="mb-2 container search-container" style="padding-top: 12rem;">
-                    <div class="input-group">
+                <div class="container bg-white text-black py-3 rounded-5" style=" margin-top: 10rem;">
+                    <div class="d-flex gap-4 justify-content-center">
+                        <div class="form-floating">
+                            <input type="text" class="form-control shadow-none border-0 border-bottom border-secondary rounded-0" id="floatingInput" placeholder="Find Room">
+                            <label class="text-secondary">Find Room</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="date" class="form-control text-black shadow-none border-0 border-bottom border-secondary rounded-0" id="floatingInput" placeholder="Find Room">
+                            <label>Check In</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="date" class="form-control text-black shadow-none border-0 border-bottom border-secondary rounded-0" id="floatingInput" placeholder="Find Room">
+                            <label>Check Out</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" class="form-control shadow-none border-0 border-bottom border-secondary rounded-0" id="floatingInput" placeholder="Guest">
+                            <label class="text-secondary">Guest</label>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-outline-primary px-3">Search</button>
+
+                    </div>
+
+
+                    <!-- <div class="input-group">
                         <input type="date" class="form-control shadow-none rounded-start-4" placeholder="Tanggal Cek in">
                         <input type="date" class="form-control shadow-none rounded-end-4" placeholder="Tanggal Cek Out">
                         <div class="ms-3 input-group-append">
@@ -12,17 +34,14 @@
                                 <i class="fa fa-search"></i>
                             </button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-                <!-- <h1 class="mb-2 fw-semibold" style="letter-spacing: .1rem; padding-top: 12rem;"><u>
-                        PENCARIAN DIMARI</u></h1> -->
             </div>
         </div>
     </div>
 </div>
 
 <div id="rooms" class="container">
-
     <div class="container h-100">
 
     </div>
@@ -33,17 +52,27 @@
                 <h4 class="mb-5">Filter</h4>
 
                 <div class="mb-5">
-                    <h6 class="mb-3">Our Price</h6>
+                    <h6 class="mb-3">Our Price (IDR)</h6>
                     <ul class="ps-3 d-grid gap-2 list-unstyled">
-                        <li><a class="text-decoration-none text-black" href="#">Cheapest</a></li>
-                        <li><a class="text-decoration-none text-black" href="#">Normal</a></li>
-                        <li><a class="text-decoration-none text-black" href="#">Expensive</a></li>
-                        <li><a class="text-decoration-none text-black" href="#">Luarang banget cik</a></li>
+                        <li><a class="text-decoration-none text-black fst-italic" href="#">0 - 199,999</a></li>
+                        <li><a class="text-decoration-none text-black fst-italic" href="#">200,000 - 299,000</a></li>
+                        <li><a class="text-decoration-none text-black fst-italic" href="#">300,000 - 499,000</a></li>
+                        <li><a class="text-decoration-none text-black fst-italic" href="#">500,000 - 999,999</a></li>
                     </ul>
                 </div>
 
                 <div class="mb-5">
-                    <h6 class="mb-3">Property Facilities</h6>
+                    <h6 class="mb-3">Our Room Type</h6>
+                    <ul class="ps-3 d-grid gap-2 list-unstyled">
+                        <li><a class="text-decoration-none text-black" href="#">Superior</a></li>
+                        <li><a class="text-decoration-none text-black" href="#">Deluxe</a></li>
+                        <li><a class="text-decoration-none text-black" href="#">Suites</a></li>
+                        <li><a class="text-decoration-none text-black" href="#">Presidential Suites</a></li>
+                    </ul>
+                </div>
+
+                <div class="mb-5">
+                    <h6 class="mb-3">Our Facilities</h6>
                     <div class="d-grid gap-2 list-unstyled">
                         <div class="form-check">
                             <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
