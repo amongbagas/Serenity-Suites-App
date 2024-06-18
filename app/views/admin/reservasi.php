@@ -158,55 +158,64 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="card-header">
-                                <h4 class="card-title">Table User</h4>
+                                <h4 class="card-title">Table Reservasi</h4>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table id="basic-datatables" class="display table table-striped table-hover">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>User Name</th>
+                                                <th>Email</th>
+                                                <th>Room Name</th>
+                                                <th>Check In</th>
+                                                <th>Check Out</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tfoot>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>User Name</th>
+                                                <th>Email</th>
+                                                <th>Room Name</th>
+                                                <th>Check In</th>
+                                                <th>Check Out</th>
+                                                <th>Action</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
                                             <tr>
-                                                <td>Shad Decker</td>
-                                                <td>Regional Director</td>
-                                                <td>Edinburgh</td>
-                                                <td>51</td>
-                                                <td>2008/11/13</td>
-                                                <td>$183,000</td>
+                                                <th>Shad Decker</th>
+                                                <th>shad@gmail.com</th>
+                                                <th>Superior Room</th>
+                                                <th>20/05/2024</th>
+                                                <th>27/05/2024</th>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Michael Bruce</td>
-                                                <td>Javascript Developer</td>
-                                                <td>Singapore</td>
-                                                <td>29</td>
-                                                <td>2011/06/27</td>
-                                                <td>$183,000</td>
+                                                <td>bruce@gmail.com</td>
+                                                <td>Deluxe Room</td>
+                                                <th>20/05/2024</th>
+                                                <th>27/05/2024</th>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Donna Snider</td>
-                                                <td>Customer Support</td>
-                                                <td>New York</td>
-                                                <td>27</td>
-                                                <td>2011/01/25</td>
-                                                <td>$112,000</td>
+                                                <td>donna@gmail.com</td>
+                                                <td>Standard Room</td>
+                                                <th>20/05/2024</th>
+                                                <th>27/05/2024</th>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>

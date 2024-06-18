@@ -157,56 +157,51 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <div class="card-header">
-                                <h4 class="card-title">Table User</h4>
+                            <div class="card-header d-flex justify-content-between">
+                                <h4 class="card-title">Table Kamar</h4>
+                                <button type="button" class="btn btn-sm btn-primary">Add Kamar</button>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table id="basic-datatables" class="display table table-striped table-hover">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>Name Kamar</th>
+                                                <th>Total Kamar</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tfoot>
-                                            <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <tr>
+                                                <th>Name Kamar</th>
+                                                <th>Total Kamar</th>
+                                                <th>Action</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
                                             <tr>
-                                                <td>Shad Decker</td>
-                                                <td>Regional Director</td>
-                                                <td>Edinburgh</td>
-                                                <td>51</td>
-                                                <td>2008/11/13</td>
-                                                <td>$183,000</td>
+                                                <td>Standard Room</td>
+                                                <td>2</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td>Michael Bruce</td>
-                                                <td>Javascript Developer</td>
-                                                <td>Singapore</td>
-                                                <td>29</td>
-                                                <td>2011/06/27</td>
-                                                <td>$183,000</td>
+                                                <td>Superior Room</td>
+                                                <td>6</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td>Donna Snider</td>
-                                                <td>Customer Support</td>
-                                                <td>New York</td>
-                                                <td>27</td>
-                                                <td>2011/01/25</td>
-                                                <td>$112,000</td>
+                                                <td>Deluxe Room</td>
+                                                <td>5</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-sm btn-warning">Edit</button>
+                                                    <button type="button" class="btn btn-sm btn-danger">Hapus</button>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>

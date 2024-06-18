@@ -166,58 +166,49 @@
                                     <table id="basic-datatables" class="display table table-striped table-hover">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>Email</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Full Name</th>
                                                 <th>Action</th>
+
                                             </tr>
                                         </thead>
                                         <tfoot>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>Email</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Full Name</th>
                                                 <th>Action</th>
                                             </tr>
                                         </tfoot>
                                         <tbody>
                                             <tr>
+                                                <td>shad@gmail.com</td>
+                                                <td>Shad</td>
+                                                <td>Decker</td>
                                                 <td>Shad Decker</td>
-                                                <td>Regional Director</td>
-                                                <td>Edinburgh</td>
-                                                <td>51</td>
-                                                <td>2008/11/13</td>
-                                                <td>$183,000</td>
                                                 <td>
                                                     <button type="button" class="btn btn-sm btn-warning">Edit</button>
                                                     <button type="button" class="btn btn-sm btn-danger">Hapus</button>
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td>bruce@gmail.com</td>
+                                                <td>Michael</td>
+                                                <td>Bruce</td>
                                                 <td>Michael Bruce</td>
-                                                <td>Javascript Developer</td>
-                                                <td>Singapore</td>
-                                                <td>29</td>
-                                                <td>2011/06/27</td>
-                                                <td>$183,000</td>
                                                 <td>
                                                     <button type="button" class="btn btn-sm btn-warning">Edit</button>
                                                     <button type="button" class="btn btn-sm btn-danger">Hapus</button>
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td>donna@gmail.com</td>
+                                                <td>Donna</td>
+                                                <td>Snider</td>
                                                 <td>Donna Snider</td>
-                                                <td>Customer Support</td>
-                                                <td>New York</td>
-                                                <td>27</td>
-                                                <td>2011/01/25</td>
-                                                <td>$112,000</td>
                                                 <td>
                                                     <button type="button" class="btn btn-sm btn-warning">Edit</button>
                                                     <button type="button" class="btn btn-sm btn-danger">Hapus</button>
